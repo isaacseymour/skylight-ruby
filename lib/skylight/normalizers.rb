@@ -146,6 +146,7 @@ module Skylight
         active_record/sql
         active_support/cache
         elasticsearch/request
+        faraday
         grape/endpoint
         moped/query).each do |file|
       require "skylight/normalizers/#{file}"
